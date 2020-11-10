@@ -19,6 +19,13 @@ body {
     font-size: 0.7em;
 }
 
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
 .push {
     margin-left: auto;
 }
