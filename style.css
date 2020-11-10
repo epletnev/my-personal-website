@@ -39,6 +39,13 @@ a {
     text-decoration: none;
 }
 
+.container {   
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .green{
     background: #56B870;    
 }
