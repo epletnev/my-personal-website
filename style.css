@@ -39,6 +39,12 @@ a {
     text-decoration: none;
 }
 
+.stick {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .container {   
     height: 70vh; 
     display: flex;
