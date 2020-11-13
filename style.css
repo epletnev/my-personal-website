@@ -68,6 +68,13 @@ a {
     margin: 20px;
 }
 
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
 .box > img {
     width: 100%;
 }
