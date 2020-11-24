@@ -57,7 +57,12 @@ a {
 }
 
 .cover {
-    width: 30rem;
+  display: flex;
+  width: 40rem;  
+}
+
+.about {
+  width: 50rem;
 }
 
 .grid-wrapper {
