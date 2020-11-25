@@ -56,6 +56,16 @@ a {
   overflow: hidden;
 }
 
+.quote {      
+  position: absolute;  
+  margin-top: 75px;
+  max-width: 1000px;   
+  text-align: center;
+  font-style: italic;  
+  font-size: 1.3em; 
+  color: #1d3557;      
+}
+
 .cover {
   display: flex;
   width: 40rem;  
