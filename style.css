@@ -77,26 +77,19 @@ a {
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;  
+  background: #a8dadc;   
+  padding: 30px;
 }
 
-.box {
-    background-color: #444;
-    padding: 130px;
-    margin: 20px;
+.header {
+  background: #457b9d;
+  text-align: center;
+  padding: 30px;
+  margin: 0;     
 }
 
-.box:hover {
-    -webkit-transform: rotate(-7deg);
-    -moz-transform: rotate(-7deg);
-    -o-transform: rotate(-7deg);
-    transform: rotate(-7deg);
-}
-
-.box > img {
-    width: 100%;
-}
 
 footer {
     text-align: center;
