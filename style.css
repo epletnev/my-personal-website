@@ -27,6 +27,13 @@ body {
     }
 }
 
+.stick {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 .push {
     margin-left: auto;
 }
@@ -40,13 +47,6 @@ a {
     text-decoration: none;
 }
 
-.stick {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
 .cover-container {   
     height: 100vh; 
     display: flex;
@@ -54,6 +54,21 @@ a {
     justify-content: center;   
     background: #f1faee; 
   overflow: hidden;
+}
+
+.slider-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+img {
+  height: 460px;
+  width: 850px;
 }
 
 .quote {      
