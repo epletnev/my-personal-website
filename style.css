@@ -66,6 +66,12 @@ a {
   color: #1d3557;      
 }
 
+.header {
+  background: #457b9d;
+  text-align: center;
+  padding: 30px;
+  margin: 0;     
+}
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -74,11 +80,46 @@ a {
   padding: 30px;
 }
 
-.header {
-  background: #457b9d;
+.area {
+  width: 200px;
+  height: 250px;
+  margin: auto;
+  perspective: 600px;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+  border: 1px solid #1d3557;
+}
+
+.box.flip {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.box-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
   text-align: center;
-  padding: 30px;
-  margin: 0;     
+  font-size: 25px;
+  backface-visibility: hidden;
+}
+
+.box-image-front {
+  background: #1d3557;
+  line-height: 250px;
+}
+
+.box-image-back {
+  background: #e63946;
+  transform: rotateY(180deg);
 }
 
 .cover {
