@@ -163,14 +163,11 @@ footer {
   opacity: 0.5;
 }
 
-.codewars {
-  height: 25px;
-  width: 25px;
-  margin: 10px;
-  margin-bottom: 0px;
+.iconify {
+  padding-left: 10px;  
 }
 
-.codewars:hover {
+.iconify:hover {
   opacity: 0.5;
 }
 
