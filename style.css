@@ -1,30 +1,32 @@
 body {
-    margin: 0 auto;
-    font-family: Arial;
+  margin: 0 auto;
+  font-family: Arial;
 }
 
 .zone {
-    cursor:pointer;
-    color:#FFF;
-    font-size:2em;
-    border-radius:4px;
-    border:1px solid #bbb;
-    transition: all 0.3s linear;  
+  cursor: pointer;
+  color: #fff;
+  font-size: 2em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  transition: all 0.3s linear;
 }
 
+/* Nav bar */
+
 .main-nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    font-size: 0.7em;
-    background: #457b9d;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
+  background: #457b9d;
 }
 
 @media only screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 0.5em;
-        padding: 0;
-    }
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
 }
 
 .stick {
@@ -35,24 +37,26 @@ body {
 }
 
 .push {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 li {
-    padding: 20px;
+  padding: 20px;
 }
 
 a {
-    color: #f5f5f6;
-    text-decoration: none;
+  color: #f5f5f6;
+  text-decoration: none;
 }
 
-.cover-container {   
-    height: 100vh; 
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    background: #f1faee; 
+/* Slider */
+
+.cover-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1faee;
   overflow: hidden;
 }
 
@@ -157,27 +161,32 @@ img {
   }
 }
 
-.quote {      
-  position: absolute;  
+/* Quotes */
+
+.quote {
+  position: absolute;
   margin-top: 75px;
-  max-width: 1000px;   
+  max-width: 1000px;
   text-align: center;
-  font-style: italic;  
-  font-size: 1.3em; 
-  color: #1d3557;      
+  font-style: italic;
+  font-size: 1.3em;
+  color: #1d3557;
 }
 
 .header {
   background: #457b9d;
   text-align: center;
   padding: 30px;
-  margin: 0;     
+  margin: 0;
 }
+
+/* Grid boxes */
+
 .grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 30px;  
-  background: #a8dadc;   
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  background: #a8dadc;
   padding: 30px;
 }
 
@@ -223,9 +232,11 @@ img {
   transform: rotateY(180deg);
 }
 
+/* About */
+
 .cover {
   display: flex;
-  width: 40rem;  
+  width: 40rem;
 }
 
 .avatar {
@@ -235,6 +246,8 @@ img {
   padding: 20px;
   margin-right: 15px;
 }
+
+/* Links */
 
 footer {
   text-align: center;
@@ -250,11 +263,9 @@ footer {
 }
 
 .iconify {
-  padding-left: 10px;  
+  padding-left: 10px;
 }
 
 .iconify:hover {
   opacity: 0.5;
 }
-
-
