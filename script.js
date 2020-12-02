@@ -11,6 +11,19 @@ const quotes = [
   "'Pride is not an LGBT celebration, it's a human rights celebration - it's a celebration of equality - it's a celebration of inclusion - it's a celebration of acceptance.' ― Abhijit Naskar" 
 ];
 
+let slideIndex = 1;
+slider(slideIndex);
+
+// Next/prev buttons function
+function addSlide(n) {
+  slider((slideIndex += n));
+}
+
+// Link circles indicators function
+function selectSlide(n) {
+  slider((slideIndex = n));
+}
+
 function slider(n) {
   let i;
   const slides = document.getElementsByClassName("slide");
