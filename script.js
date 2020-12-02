@@ -10,3 +10,10 @@ const quotes = [
   "'Saying it's hard being straight is like complaining to the poor that it's difficult being wealthy.' ― DaShanne Stokes",
   "'Pride is not an LGBT celebration, it's a human rights celebration - it's a celebration of equality - it's a celebration of inclusion - it's a celebration of acceptance.' ― Abhijit Naskar" 
 ];
+
+function slider(n) {
+  let i;
+  const slides = document.getElementsByClassName("slide");
+  const circles = document.getElementsByClassName("circle");
+
+}
