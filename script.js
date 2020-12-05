@@ -46,3 +46,10 @@ if (n > slides.length) {
     const randomNumber = Math.floor(Math.random() * quotes.length);
   document.getElementById("newQuote").innerHTML = quotes[randomNumber];
 }
+
+const boxes = document.getElementsByClassName("box");
+for (let i = 0; i < boxes.length; i++) {
+  boxes[i].addEventListener("click", function () {
+    this.classList.toggle("flip");
+  });
+}
