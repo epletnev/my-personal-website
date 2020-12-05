@@ -42,4 +42,7 @@ if (n > slides.length) {
   }
   slides[slideIndex - 1].style.display = "block";
   circles[slideIndex - 1].className += " active";
+
+    const randomNumber = Math.floor(Math.random() * quotes.length);
+  document.getElementById("newQuote").innerHTML = quotes[randomNumber];
 }
