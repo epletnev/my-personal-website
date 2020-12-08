@@ -213,6 +213,7 @@ img {
 footer {
   text-align: center;
   background: #1d3557;
+  padding: 10px;
 }
 
 .fa {
@@ -224,7 +225,7 @@ footer {
 }
 
 .iconify {
-  padding-left: 10px;
+  padding-left: 8px;
 }
 
 .iconify:hover {
