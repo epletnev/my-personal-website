@@ -73,6 +73,7 @@ a {
 img {
   height: 460px;
   width: 850px;
+  max-width: 100%;
 }
 
 .prev,
