@@ -13,20 +13,12 @@ body {
 }
 
 /* Nav bar */
-
 .main-nav {
   display: flex;
   list-style: none;
   margin: 0;
   font-size: 0.7em;
   background: #457b9d;
-}
-
-@media only screen and (max-width: 600px) {
-  .main-nav {
-    font-size: 0.5em;
-    padding: 0;
-  }
 }
 
 .stick {
@@ -50,7 +42,6 @@ a {
 }
 
 /* Slider */
-
 .cover-container {
   height: 100vh;
   display: flex;
@@ -121,10 +112,9 @@ img {
 
 .active {
   background-color: #717171;
-} 
+}
 
 /* Quotes */
-
 .quote {
   position: absolute;
   margin-top: 75px;
@@ -135,15 +125,7 @@ img {
   color: #1d3557;
 }
 
-.header {
-  background: #457b9d;
-  text-align: center;
-  padding: 30px;
-  margin: 0;
-}
-
-/* Grid boxes */
-
+/* Flip boxes */
 .grid-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -195,7 +177,6 @@ img {
 }
 
 /* About */
-
 .cover {
   display: flex;
   width: 40rem;
@@ -210,7 +191,6 @@ img {
 }
 
 /* Links */
-
 footer {
   text-align: center;
   background: #1d3557;
