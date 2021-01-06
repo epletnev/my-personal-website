@@ -212,3 +212,28 @@ footer {
 .iconify:hover {
   opacity: 0.5;
 }
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0px;
+  }
+  div.description {
+    font-size: 1.1em;
+    bottom: 30px;
+  }
+  span.circle {
+    margin-top: 90px;
+  }
+  div.quote {
+    font-size: 1em;
+    margin-top: 45px;
+  }  
+  div.cover {
+    display: block;  
+}
+  p, h2 {
+    padding: 20px;
+}
+}
