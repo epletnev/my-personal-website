@@ -229,11 +229,12 @@ footer {
   div.quote {
     font-size: 1em;
     margin-top: 45px;
-  }  
+  }
   div.cover {
-    display: block;  
-}
-  p, h2 {
+    display: block;
+  }
+  p,
+  h2 {
     padding: 20px;
-}
+  }
 }
